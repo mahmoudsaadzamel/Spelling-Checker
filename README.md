@@ -14,7 +14,8 @@ The class provides a method named find that takes an input word as an argument a
 
 # Time Complexity: 
 The time complexity for finding the nearest four words depends on the number of words starting with the same character as the input word (in the dictionary) and the length of the input word. Let 'K' be the average number of words starting with the same character as the input word. The time complexity for finding the nearest words is O(K * L), where 'L' is the length of the input word.
-# Space Complexity: The space complexity for this operation is O(1) as it only requires a constant amount of memory to store the nearest four words.
+# Space Complexity: 
+The space complexity for this operation is O(1) as it only requires a constant amount of memory to store the nearest four words.
 
 # 3 -  Add Word to Dictionary:
 The class provides a method named to add a word that takes an input word as an argument and adds it to the dictionary.
